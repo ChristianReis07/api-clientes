@@ -9,7 +9,7 @@ services:
     restart: always #Sempre manter o serviço em execução
     environment: #Variáveis de ambiente do postgres
       POSTGRES_USER: admin
-      POSTGRES_PASSWORD: senha
+      POSTGRES_PASSWORD: admin123
       POSTGRES_DB: dbclientes
     ports:
       - "5432:5432" #Portas em que o serviço irá rodar
